@@ -11,7 +11,7 @@ int main(int argc,char *argv[])
 	MYSQL conn;
 	int res;
 	mysql_init(&conn);
-	if(mysql_real_connect(&conn,"localhost","root","106699","test",0,NULL,CLIENT_FOUND_ROWS)) //"root":数据库管理员 "":root密码 "test":数据库的名
+	if(mysql_real_connect(&conn,"localhost","root","password","test",0,NULL,CLIENT_FOUND_ROWS)) //"root":数据库管理员 "":root密码 "test":数据库的名
 	{
 		printf("connect success!\n");
 		res=mysql_query(&conn,"select * from test");
