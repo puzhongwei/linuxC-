@@ -4,9 +4,21 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAXBUF	chatclient.c	13;"	d	file:
+MAXBUF	chatserver.c	17;"	d	file:
+QLEN	chatserver.c	18;"	d	file:
 fun	backlog.c	/^void fun()$/;"	f
+fun	server.c	/^void fun()$/;"	f
 handle_term	backlog.c	/^static void handle_term(int sig)$/;"	f	file:
+handle_term	server.c	/^static void handle_term(int sig)$/;"	f	file:
 main	backlog.c	/^int main(int argc, char *argv[])$/;"	f
+main	chatclient.c	/^    int main(int argc, char *argv[])  $/;"	f
+main	chatserver.c	/^int main(int argc, char *argv[])$/;"	f
+main	client.c	/^int main(int argc, char* argv[])$/;"	f
+main	datime.c	/^int main(int argc, char *argv[])$/;"	f
+main	daytime.cpp	/^int main(int argc, char *argv[])$/;"	f
 main	msg_oob.c	/^int main(int argc, char* argv[])$/;"	f
+main	server.c	/^int main(int argc, char *argv[])$/;"	f
 main	test.cpp	/^int main()$/;"	f
 stop	backlog.c	/^static bool stop = false;$/;"	v	file:
+stop	server.c	/^static bool stop = false;$/;"	v	file:
